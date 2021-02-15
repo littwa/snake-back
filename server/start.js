@@ -49,7 +49,6 @@ class Server {
 
   listenServer() {
     this.server.listen(process.env.PORT, () => console.log("Started Port", process.env.PORT));
-    console.log("hello");
   }
 }
 
